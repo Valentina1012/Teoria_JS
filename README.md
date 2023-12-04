@@ -70,3 +70,22 @@ for (animal in animales) { <br>
 for (animal of animales) { <br>
   document.write(animal + "<br>"); <br>
 }
+
+## FUNCIONES
+function saludar() {
+    respuesta = prompt("¡Hola! ¿Cómo fue tu día?");
+    if (respuesta == "bien") {
+        alert ("me alegro");
+    } else {
+        alert ("una pena");
+    }
+}
+### FUNCIONES FLECHA
+const saludar = (nombre) => {
+    let frase = `¡Hola ${nombre}! ¿Cómo estas?`;
+    document.write(frase);
+} <br>
+* <i>La palabra reservada "function" se reemplaza por una flecha =></i>
+* Entre paréntesis se colocan los parámetros de la función, en caso de no haber ninguno se deja el paréntesis vacío. También se puede no poner paréntesis si hay sólo un parámetro.
+* Si hay sólo una linea a retornar se puede escribir de la siguiente forma: const saludar = nombre => document.write(frase);
+
