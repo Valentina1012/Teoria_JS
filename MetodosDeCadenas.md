@@ -5,13 +5,13 @@ resultado = cadena.concat("hola"); <br> <i>// resultado = cadena de prueba hola 
 #### METODOS DE BUSQUEDA
 * STARTSWITH(): Si una cadena comienza con los caracteres de otra cadena, devulelve true, sino devuelve false. Ej: let cadena = "cadena de prueba";
 cadena2 = "cadena"; resultado = cadena.startsWith(cadena2); <br> <i>// resultado = true </i>
-* ENDSWITH(): Es parecido a startsWith() sólo que devuelve true en caso de que la cadena termine con los mismo caracteres que otra cadena, en caso contrario devuelve false.
-* INCLUDES: Si una cadena puede encontrarse dentro de otra cadena, devuelve true, sino devuelve false. Ej: let cadena = "cadena de prueba";
+* ENDSWITH(): Es parecido a startsWith() sólo que devuelve true en caso de que la cadena termine con los mismos caracteres que otra cadena, en caso contrario devuelve false.
+* INCLUDES(): Si una cadena puede encontrarse dentro de otra cadena, devuelve true, sino devuelve false. Ej: let cadena = "cadena de prueba";
 cadena2 = "prueba"; resultado = cadena.includes(cadena2); <br> <i>// resultado = true </i>
 * INDEXOF(): Devuelve el índice del primer caracter de la cadena, sino existe, devuelve -1.
 Ej: let cadena = "cadena de prueba";
 resultado = cadena.indexOf("prueba"); <br> <i>// resultado = 10 </i>
-* LASTINDEXOF(): Devuelve el último índice del primer caracter de la cadena, sino existe, devuelve -1. Agarra la última conincidencia de la cadena. 
+* LASTINDEXOF(): Devuelve el último índice del primer caracter de la cadena, si no existe, devuelve -1. Agarra la última coincidencia de la cadena. 
 Ej: let cadena = "cadena de prueba prueba prueba";
 resultado = cadena.lastIndexOf("prueba"); <br> <i>// resultado = 24 </i>
 
