@@ -72,14 +72,10 @@ for (animal of animales) { <br>
 }
 
 ## FUNCIONES
-function saludar() {
-    respuesta = prompt("¡Hola! ¿Cómo fue tu día?");
-    if (respuesta == "bien") {
-        alert ("me alegro");
-    } else {
-        alert ("una pena");
-    }
-}
+<img src="https://github.com/Valentina1012/Teoria_JS/assets/84479987/92704561-f237-4739-a8de-c89f5bd772d9" width="300"><br>
+### Funciones de una sola linea
+<img src="https://github.com/Valentina1012/Teoria_JS/assets/84479987/bdbce261-063e-4575-9d10-9c5d43c89e29" width="250"><br>
+
 ### FUNCIONES FLECHA
 const saludar = (nombre) => {
     let frase = `¡Hola ${nombre}! ¿Cómo estas?`;
