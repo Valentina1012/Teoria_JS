@@ -1,5 +1,5 @@
 # Teoria_JS
-
+## Variables
 let recipiente= null;
 alert(recipiente) <br>
 
