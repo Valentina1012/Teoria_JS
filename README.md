@@ -12,7 +12,7 @@ let numero4 = 23, numero5 = 24;
 
 let nombre = prompt("Decime tu nombre");
 alert(`Hola ${nombre}`); <br>
-<i>Backsticks = `` (sirve para concatenaciones, se hace con Alt gr + tecla "}" dos veces )</i>
+<i>Backsticks = `` (sirve para concatenaciones con variables, se hace con Alt gr + tecla "}" dos veces )</i>
 
 
 ## ARREGLOS
