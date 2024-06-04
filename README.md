@@ -30,47 +30,6 @@ let pc = {
 <br>
 <i>Se puede consultar el valor del elemento guardado en el arreglo con: pc[nombre] -> Devuelve "GXPC" </i>
 
-## BUCLE DO WHILE
-let nro = 0;
-
-do {
-    document.write(numero + "<br>");
-    numero ++;
-}
-
-while (numero > 6); <br>
-<i>Ejecuta el código al menos una vez y luego pregunta por la condición del bucle</i>
-
-
-## CONTINUE EN UN BUCLE
-<i>Sirve para pasar a la siguiente iteración del bucle sin ejecutar lo que hay después del continue</i>
-
-for (let i = 1; i <= 5; i++) {
-    if (i == 4) {
-        continue;
-    }
-    document.write(i);
-}
-<i>Estas lineas de código impremen 1, 2, 3, 5 (se saltea la impresión del número 4)</i>
-
-document.write("<br>");
-
-let animales = ["gato", "perro", "jirafa"];
-
-## FOR IN
-<i> Recorre por índice de un arreglo y muestra su indice además de propiedades del objeto </i>
-
-for (animal in animales) { <br>
-  document.write(animal + "<br>"); <br>
-}
-
-## FOR OF
-<i>Recorre por el elemento de un arreglo</i>
-
-for (animal of animales) { <br>
-  document.write(animal + "<br>"); <br>
-}
-
 ## FUNCIONES
 <img src="https://github.com/Valentina1012/Teoria_JS/assets/84479987/92704561-f237-4739-a8de-c89f5bd772d9" width="300"><br>
 ### Funciones de una sola linea
