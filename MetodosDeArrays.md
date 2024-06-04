@@ -14,5 +14,9 @@
 
 ## Repetición
 * filter(): Crea un nuveo array con todos los elementos que cumplan la condición. <i>Sintaxis: numeros.filter(numero => numero.length > 4)</i>
-* forEach(): Ejecuta la función indicada una vez por cada elemento del array.
+* forEach(callback(currentValue, index)): Ejecuta la función indicada una vez por cada elemento del array.
+  * <b>callback:</b> Es una función que se ejecuta en cada elemento del array, esta función recibe tres argumentos:
+    * currentValue: El valor del elemento actual que se está procesando en el array.
+    * index(opcional): El índice del elemento actual que se está procesando.
+    
   
